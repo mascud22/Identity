@@ -102,11 +102,11 @@ const Skills = () => {
                   {skillList.categorie}{" "}
                 </span>
               </div>
-              {/* <p className="text-text-third w-full line-clamp-2">
+              <p className="text-text-third ml-2 w-full line-clamp-2">
                 {" "}
                 {skillList.description}{" "}
-              </p> */}
-              <button className="py-[8px] text-sm px-2 bg-invert text-invert-text rounded-2xl  w-full font-semibold transition-all ease-in-out cursor-pointer hover:scale-103">
+              </p>
+              <button className="py-[8px] text-sm px-2 bg-secondary text-text rounded-2xl  w-full font-semibold transition-all ease-in-out cursor-pointer hover:scale-103">
             Look Out
           </button>
             </div>

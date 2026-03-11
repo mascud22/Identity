@@ -138,7 +138,7 @@ const Navbar = () => {
 
             {/* Fullscreen Mobile Menu */}
             {isOpen && (
-              <div className='fixed  h-screen w-screen inset-0 z-40 bg-primary  flex flex-col items-start justify-start gap-6 animate-in fade-in    mt-13'>
+              <div className='fixed  h-screen w-screen inset-0 z-40 bg-primary  flex flex-col items-start justify-start gap-6 animate-in fade-in    mt-14'>
                 <div className='w-full  h-170 bg-primary  drop-shadow-[0_4px_38px]/ drop-shadow-ui-color/60 border-2/ border-ui-color/20  rounded-2xl/ rounded-lg/ flex flex-col gap-2 p-5'>
                    <h2 className='text-text font-bold text-lg border-b border-text/20 pb-2'>
                     Sections
