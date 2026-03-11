@@ -138,8 +138,8 @@ const Navbar = () => {
 
             {/* Fullscreen Mobile Menu */}
             {isOpen && (
-              <div className='fixed  h-screen w-screen inset-0 z-40 bg-primary  flex flex-col items-start justify-start gap-6 animate-in fade-in    mt-17 '>
-                <div className='w-full  h-170 bg-ui-color/12 drop-shadow-[0_4px_38px] drop-shadow-ui-color/60 border-2 border-ui-color/20  rounded-2xl/ rounded-lg/ flex flex-col gap-2 p-3'>
+              <div className='fixed  h-screen w-screen inset-0 z-40 bg-primary  flex flex-col items-start justify-start gap-6 animate-in fade-in    mt-13'>
+                <div className='w-full  h-170 bg-primary  drop-shadow-[0_4px_38px]/ drop-shadow-ui-color/60 border-2/ border-ui-color/20  rounded-2xl/ rounded-lg/ flex flex-col gap-2 p-5'>
                    <h2 className='text-text font-bold text-lg border-b border-text/20 pb-2'>
                     Sections
                   </h2>
@@ -163,8 +163,8 @@ const Navbar = () => {
                   </div>
 
                   <div className="flex items-center gap-2">
-                    <div className='size-7.5 rounded-xl bg-ui-color/10'></div>
-                    <h4 className=' font-semibold text-text-secondary'>Change Language</h4>
+                    <div className='size-7.5 rounded-xl bg-seconadry'></div>
+                    <h4 className=' font-semibold text-text-secondary'> Language</h4>
                     <div className='w-20'></div>
                     <button className='border-2 border-ui-color/10 rounded-xl text-sm py-1 px-3.5 text-text'>EN</button>
                   </div>

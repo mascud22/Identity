@@ -79,8 +79,8 @@ const Testimonials = () => {
           <span className="bg-invert  mx-1 px-3 rounded-2xl text-invert-text drop-shadow-[0_4px_38px] drop-shadow-ui-color/20">
             Testmonial
           </span>
-          From, <br className="hidden sm:flex" /> 
-          Client
+          From  <br className="hidden sm:flex" /> 
+          Client Reviews
         </span>
       </h1>
           <p className="text-text-third text-lg max-w-2xl mx-auto">
@@ -96,10 +96,10 @@ const Testimonials = () => {
             return (
               <div
                 key={index}
-                className={`relative group bg-third/ border border-ui-color/15 rounded-3xl p-6  transition-all duration-500 ${
+                className={`relative group bg-third/ border border-ui-color/15 rounded-3xl p-6  transition-all duration-500 scale-90 ${
                   index === activeIndex
                     ? 'scale-105 rotate-2  shadow-2xl bg-ui-color'
-                    : 'scale-100   opacity-80 hover:opacity-100'
+                    : 'scale-95   opacity-80 hover:opacity-100'
                 }`}
               >
                 {/* Quote Icon */}

@@ -153,7 +153,7 @@ const About = () => {
             </p>
            <div className="w-full flex items-center gap-3">
                 <button className="mt-6  drop-shadow-[0_4px_48px]/ drop-shadow-white/ bg-invert text-invert-text rounded-2xl py-2 px-4 transition-all hover:scale-101 cursor-pointer active:scale-95 font-semibold flex-1">
-                  Work me
+                  Work with me
                 </button>
                 
            </div>

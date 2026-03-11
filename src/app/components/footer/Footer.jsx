@@ -181,7 +181,7 @@ const Footer = () => {
       </div>
 
       {/* Bottom Bar */}
-      <div className="relative border-t border-ui-color/10 bg-invert">
+      <div className="relative border-t border-ui-color/10 bg-third/">
         <div className="max-w-7xl mx-auto px-6 py-6 sm:px-8 lg:px-12 flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="text-sm text-text-third">
             © {new Date().getFullYear()} Mascud Yare. All rights reserved.

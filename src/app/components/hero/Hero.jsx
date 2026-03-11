@@ -15,9 +15,9 @@ const Hero = () => {
       <BoltIcon className='size-30 top-80 right-60 absolute text-ui-color/20 blur-[4px] hidden sm:flex  drop-shadow-[0_4px_38px] drop-shadow-ui-color/60'/>
       <img className=' absolute h-114   opacity-10  object-fill ' src="/src/assets/grid.png" alt="" />
       {/* <img className='size-90 top-30 right-60 opacity-75 z-60 object-cover absolute' src="/public/pexels-catherine-zhuang-1225716959-23915302-removebg-preview.png" alt="" /> */}
-      <h1  className='text-text sm:text-7xl text-[47px] leading-13.5 sm:leading-15 text-center font-semibold  drop-shadow-[0_4px_38px] drop-shadow-ui-color/10'>Turn Your <span className=' font-bold text-ui-color drop-shadow-[0_4px_38px] drop-shadow-ui-color'> Ideas  </span> <br /> <span className='text-text-third sm:text-7xl text-[50px]'>Into Scalable Solutions</span></h1>
-      <p className='  text-text-third  sm:text-lg text-center sm:max-w-200 px-6 '>I <b>design and build high-performance full-stack</b> web applications 😱 that are <b>fast,secure, 🧗‍♂️and crafted to grow</b> with your business📕.</p>
-      <div className='flex items-center gap-3 sm:w-130  border-t-2/ border-t-secondary/ pt-5'>
+      <h1  className='text-text sm:text-7xl text-[43px] leading-13.5 sm:leading-15 text-center font-semibold  drop-shadow-[0_4px_38px] drop-shadow-ui-color/10'>Change<span className=' font-bold text-ui-color drop-shadow-[0_4px_38px] drop-shadow-ui-color'> Ideas  </span> <br /> <span className='text-text-third sm:text-7xl text-[45px]'>Into Scalable Solutions</span></h1>
+      <p className='  text-text-third  sm:text-lg text-center sm:max-w-200 px- text-[18px'>I <b>design and build high-performance full-stack</b> web applications 😱 that are <b>fast,secure, 🧗‍♂️and crafted to grow</b> with your business📕.</p>
+      <div className='flex items-center gap-2 sm:w-130  border-t-2/ border-t-secondary/ pt-5'>
         <button className=' drop-shadow-[0_4px_38px] drop-shadow-ui-color/60 bg-ui-color text-ui-color-text rounded-2xl md:py-2 sm:py-2 py-2  px-4.5 transition-all ease-in-out hover:scale-103 active:scale-98 cursor-pointer font-semibold flex-1'>View My Projects</button>
         <button className=' bg-invert  text-invert-text rounded-2xl py-2 px-4.5 transition-all ease-in-out hover:scale-105 active:scale-96 cursor-pointer font-semibold'>Contact Me</button>
       </div>

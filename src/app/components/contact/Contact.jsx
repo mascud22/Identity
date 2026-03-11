@@ -116,7 +116,7 @@ const Contacts = () => {
 
             </div>
 
-        <div className='   w-full h-fit rounded-3xl flex-2 flex flex-col p-6 bg-ui-color/12 drop-shadow-[0_4px_38px] drop-shadow-ui-color/60 border-2 border-ui-color/20 rounded-4xl scale-90 mb-'>
+        <div className='   w-full h-fit rounded-3xl flex-2 flex flex-col p-4 bg-ui-color/12 drop-shadow-[0_4px_38px] drop-shadow-ui-color/60 border-2 border-ui-color/20 rounded-4xl scale-90 mb-'>
 
               {/* Heading */}
               <h1 className='text-text text-[27px] sm:text-4xl font-semibold leading-snug'>
@@ -132,7 +132,7 @@ const Contacts = () => {
                 <div className='flex flex-col gap-1.5'>
                   <label className='font-semibold text-text ml-2'>Your Name</label>
                   <input
-                    className='  bg-ui-color/12 drop-shadow-[0_4px_38px] drop-shadow-ui-color/60 border-2 border-ui-color/20 py-3 px-5 rounded-[21px] text-text font-semibold focus:outline-none focus:ring-2 focus:ring-ui-color/10 transition-all'
+                    className='  bg-ui-color/12 drop-shadow-[0_4px_38px] drop-shadow-ui-color/60 border-2 border-ui-color/20 py-3 px-5 rounded-[21px] text-ui-color-text font-semibold focus:outline-none focus:ring-2 focus:ring-ui-color/10 transition-all'
                     type="text"
                     placeholder='Enter your name'
                   />
@@ -141,7 +141,7 @@ const Contacts = () => {
                 <div className='flex flex-col gap-1.5'>
                   <label className='font-semibold text-text ml-2'>Your Email</label>
                   <input
-                    className='  bg-ui-color/12 drop-shadow-[0_4px_38px] drop-shadow-ui-color/60 border-2 border-ui-color/20 py-3 px-5 rounded-[21px] text-text font-semibold focus:outline-none focus:ring-2 focus:ring-ui-color/10 transition-all'
+                    className='  bg-ui-color/12 drop-shadow-[0_4px_38px] drop-shadow-ui-color/60 border-2 border-ui-color/20 py-3 px-5 rounded-[21px] text-ui-color-text font-semibold focus:outline-none focus:ring-2 focus:ring-ui-color/10 transition-all'
                     type="email"
                     placeholder='Enter your email'
                   />
@@ -152,7 +152,7 @@ const Contacts = () => {
               <div className='flex flex-col gap-1.5 mt-4'>
                 <label className='font-semibold text-text ml-2'>Project Details</label>
                 <textarea
-                  className='  bg-ui-color/12 drop-shadow-[0_4px_38px] drop-shadow-ui-color/60 border-2 border-ui-color/20 py-4 px-5 rounded-[21px] text-text font-semibold resize-none h-32 focus:outline-none focus:ring-2 focus:ring-ui-color/10 transition-all placeholder:text-text-third'
+                  className='  bg-ui-color/12 drop-shadow-[0_4px_38px] drop-shadow-ui-color/60 border-2 border-ui-color/20 py-4 px-5 rounded-[21px] text-ui-color-text font-semibold resize-none h-32 focus:outline-none focus:ring-2 focus:ring-ui-color/10 transition-all placeholder:text-text-third'
                   placeholder='Describe your project idea...'
                 />
               </div>
@@ -162,9 +162,9 @@ const Contacts = () => {
                 <button className='mt-6 bg-ui-color/12 drop-shadow-[0_4px_38px] drop-shadow-ui-color/60 border-2 border-ui-color/20 text-ui-color-text rounded-3xl py-3 px-4 font-semibold transition-all duration-300 hover:scale-102 hover:shadow-lg active:scale-97 cursor-pointer flex-1'>
                   Send Project Request
                 </button>
-                <button className='mt-6 bg-ui-color/12 drop-shadow-[0_4px_38px] drop-shadow-ui-color/60 border-2 border-ui-color/20 text-ui-color-text rounded-3xl py-3 px-4 font-semibold transition-all duration-300 hover:scale-102 hover:shadow-lg active:scale-97 cursor-pointer'>
+                {/* <button className='mt-6 bg-ui-color/12 drop-shadow-[0_4px_38px] drop-shadow-ui-color/60 border-2 border-ui-color/20 text-ui-color-text rounded-3xl py-3 px-4 font-semibold transition-all duration-300 hover:scale-102 hover:shadow-lg active:scale-97 cursor-pointer'>
                  Contact
-                </button>
+                </button> */}
               </div>
 
               {/* TRUST NOTE */}

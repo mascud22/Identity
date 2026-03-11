@@ -23,7 +23,7 @@ const Line = () => {
   ]
 
   return (
-    <div className='relative w-170 overflow-hidden bg-primary py-8'>
+    <div className='relative w-full overflow-hidden bg-primary py-8'>
       {/* Gradient Edges for Transparency Effect */}
       <div className='absolute left-0 top-0 h-full w-20 bg-gradient-to-r from-primary to-transparent z-10' />
       <div className='absolute right-0 top-0 h-full w-20 bg-gradient-to-l from-primary to-transparent z-10' />
